@@ -1,0 +1,5 @@
+A generator function in Python is defined like a normal function.
+But whenever it needs to generate a value.
+It does so with the yield keyword rather than return. 
+If the body of a def contains yield.
+The function automatically becomes a Python generator function.
