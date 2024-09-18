@@ -49,6 +49,7 @@ class B(A):
         self.b_name = b_name
         # invoke constructor of class A
         A.__init__(self, a_name)
+        # A.a_name = a_name
     
     def display_names(self):
         print("A name : ", self.a_name)
