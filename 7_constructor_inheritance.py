@@ -48,7 +48,10 @@ class B(A):
     def __init__(self, b_name, a_name):
         self.b_name = b_name
         # invoke constructor of class A
-        A.__init__(self, a_name)
+        super().__init__(a_name)
+        # Alternative
+        # A.__init__(self, a_name)
+    
         # If just want to use like A.a_name instead of self.a_name
         # A.a_name = a_name 
     
