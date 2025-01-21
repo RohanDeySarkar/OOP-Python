@@ -1,4 +1,4 @@
-# Method Overloading -> 2 func same name
+# Method Overloading -> 2 func same name [class have multiple methods with the same name but different parameters]
 
 class Student:
     def __init__(self, m1, m2):
